@@ -1398,3 +1398,100 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2024.08.13-19.42.40:087][402]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2024.08.13-19.42.40:087][402]LogContentValidation: Display: Validating asset /Game/Maps/MAP_Duel.MAP_Duel
 [2024.08.13-19.42.40:087][402]AssetCheck: /Game/Maps/MAP_Duel Validating asset
+[2024.08.13-19.44.52:502][367]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.08.13-19.44.52:510][367]LogContentBrowser: Creating deferred item: NewFolder
+[2024.08.13-19.44.52:518][368]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.08.13-19.44.55:686][748]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprints
+[2024.08.13-19.44.55:686][748]LogContentBrowser: End creating deferred item NewFolder
+[2024.08.13-19.46.08:151][885]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.08.13-19.46.08:156][885]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.08.13-19.46.08:161][885]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.08.13-19.46.08:180][887]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.08.13-19.46.13:496][525]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Samurai
+[2024.08.13-19.46.13:510][525]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.08.13-19.46.15:674][783]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Samurai.BP_Samurai
+[2024.08.13-19.46.16:569][783]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/PhAT_FloorBox) ...
+[2024.08.13-19.47.48:685][658]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.08.13-19.47.48:689][658]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.13-19.47.48:725][658]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Samurai] ([2] browsable assets)...
+[2024.08.13-19.47.48:725][658]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Samurai]
+[2024.08.13-19.47.48:725][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Samurai" FILE="../../../../../Projects/Unreal 5/2D-Unreal-Course/QuickDraw/Content/Blueprints/BP_Samurai.uasset" SILENT=true
+[2024.08.13-19.47.48:757][658]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Samurai
+[2024.08.13-19.47.48:757][658]LogSavePackage: Moving '../../../../../Projects/Unreal 5/2D-Unreal-Course/QuickDraw/Saved/BP_Samurai8DCD531D4B325867E65FE292D4206B3F.tmp' to '../../../../../Projects/Unreal 5/2D-Unreal-Course/QuickDraw/Content/Blueprints/BP_Samurai.uasset'
+[2024.08.13-19.47.48:767][658]LogFileHelpers: InternalPromptForCheckoutAndSave took 77.336 ms (total: 594.620 ms)
+[2024.08.13-19.47.48:823][658]LogContentValidation: Display: Starting to validate 1 assets
+[2024.08.13-19.47.48:823][658]LogContentValidation: Enabled validators:
+[2024.08.13-19.47.48:823][658]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.08.13-19.47.48:823][658]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.08.13-19.47.48:823][658]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.08.13-19.47.48:823][658]LogContentValidation: Display: Validating asset /Game/Blueprints/BP_Samurai.BP_Samurai
+[2024.08.13-19.47.48:823][658]AssetCheck: /Game/Blueprints/BP_Samurai Validating asset
+[2024.08.13-19.47.49:770][767]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.13-19.47.49:825][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Duel" FILE="../../../../../Projects/Unreal 5/2D-Unreal-Course/QuickDraw/Content/Maps/MAP_Duel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.08.13-19.47.49:854][767]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.08.13-19.47.49:856][767]LogSavePackage: Moving output files for package: /Game/Maps/MAP_Duel
+[2024.08.13-19.47.49:856][767]LogSavePackage: Moving '../../../../../Projects/Unreal 5/2D-Unreal-Course/QuickDraw/Saved/MAP_Duel845EE37A482E8E54FAE47DA22357F2EC.tmp' to '../../../../../Projects/Unreal 5/2D-Unreal-Course/QuickDraw/Content/Maps/MAP_Duel.umap'
+[2024.08.13-19.47.49:862][767]LogFileHelpers: Saving map 'MAP_Duel' took 0.037
+[2024.08.13-19.47.49:868][767]LogFileHelpers: InternalPromptForCheckoutAndSave took 98.263 ms (total: 692.883 ms)
+[2024.08.13-19.47.49:908][767]LogContentValidation: Display: Starting to validate 1 assets
+[2024.08.13-19.47.49:908][767]LogContentValidation: Enabled validators:
+[2024.08.13-19.47.49:908][767]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.08.13-19.47.49:908][767]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.08.13-19.47.49:908][767]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.08.13-19.47.49:908][767]LogContentValidation: Display: Validating asset /Game/Maps/MAP_Duel.MAP_Duel
+[2024.08.13-19.47.49:908][767]AssetCheck: /Game/Maps/MAP_Duel Validating asset
+[2024.08.13-19.48.11:810][171]LogSlate: Window 'BP_Samurai' being destroyed
+[2024.08.13-19.49.00:044][932]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.08.13-19.49.24:355][918]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.08.13-19.50.48:932][977]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.13-19.50.48:984][977]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Samurai] ([2] browsable assets)...
+[2024.08.13-19.50.48:984][977]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Samurai]
+[2024.08.13-19.50.48:984][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Samurai" FILE="../../../../../Projects/Unreal 5/2D-Unreal-Course/QuickDraw/Content/Blueprints/BP_Samurai.uasset" SILENT=true
+[2024.08.13-19.50.48:987][977]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Samurai
+[2024.08.13-19.50.48:987][977]LogSavePackage: Moving '../../../../../Projects/Unreal 5/2D-Unreal-Course/QuickDraw/Saved/BP_Samurai64A793B24A117E943857449A1F9AB391.tmp' to '../../../../../Projects/Unreal 5/2D-Unreal-Course/QuickDraw/Content/Blueprints/BP_Samurai.uasset'
+[2024.08.13-19.50.48:992][977]LogFileHelpers: InternalPromptForCheckoutAndSave took 60.363 ms (total: 753.247 ms)
+[2024.08.13-19.50.49:034][977]LogContentValidation: Display: Starting to validate 1 assets
+[2024.08.13-19.50.49:034][977]LogContentValidation: Enabled validators:
+[2024.08.13-19.50.49:034][977]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.08.13-19.50.49:034][977]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.08.13-19.50.49:034][977]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.08.13-19.50.49:034][977]LogContentValidation: Display: Validating asset /Game/Blueprints/BP_Samurai.BP_Samurai
+[2024.08.13-19.50.49:034][977]AssetCheck: /Game/Blueprints/BP_Samurai Validating asset
+[2024.08.13-19.51.11:648][133]Cmd: DELETE
+[2024.08.13-19.51.11:648][133]Cmd: ACTOR DELETE
+[2024.08.13-19.51.11:649][133]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2024.08.13-19.51.11:667][133]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.08.13-19.51.11:669][133]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2024.08.13-19.51.13:306][317]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Samurai.BP_Samurai_C
+[2024.08.13-19.51.13:306][317]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Samurai.BP_Samurai_C
+[2024.08.13-19.51.13:307][317]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Samurai.BP_Samurai as actor: BP_Samurai_C /Game/Maps/MAP_Duel.MAP_Duel:PersistentLevel.BP_Samurai_C_0
+[2024.08.13-19.51.13:309][317]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Samurai.BP_Samurai as actor: BP_Samurai_C /Game/Maps/MAP_Duel.MAP_Duel:PersistentLevel.BP_Samurai_C_0
+[2024.08.13-19.51.14:477][454]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.08.13-19.51.14:479][454]LogEditorActor: Deleted 0 Actors (0.017 secs)
+[2024.08.13-19.51.14:483][454]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Samurai.BP_Samurai_C
+[2024.08.13-19.51.14:483][454]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Samurai.BP_Samurai_C
+[2024.08.13-19.51.14:485][454]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Samurai.BP_Samurai as actor: BP_Samurai_C /Game/Maps/MAP_Duel.MAP_Duel:PersistentLevel.BP_Samurai_C_1
+[2024.08.13-19.51.14:485][454]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Samurai.BP_Samurai as actor: BP_Samurai_C /Game/Maps/MAP_Duel.MAP_Duel:PersistentLevel.BP_Samurai_C_1
+[2024.08.13-19.51.49:941][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.08.13-19.51.52:391][693]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.08.13-19.51.52:395][693]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.13-19.51.52:446][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MAP_Duel" FILE="../../../../../Projects/Unreal 5/2D-Unreal-Course/QuickDraw/Content/Maps/MAP_Duel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.08.13-19.51.52:473][693]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.08.13-19.51.52:476][693]LogSavePackage: Moving output files for package: /Game/Maps/MAP_Duel
+[2024.08.13-19.51.52:476][693]LogSavePackage: Moving '../../../../../Projects/Unreal 5/2D-Unreal-Course/QuickDraw/Saved/MAP_Duel1EFE6B1C49B2980E544350A30C07743E.tmp' to '../../../../../Projects/Unreal 5/2D-Unreal-Course/QuickDraw/Content/Maps/MAP_Duel.umap'
+[2024.08.13-19.51.52:482][693]LogFileHelpers: Saving map 'MAP_Duel' took 0.035
+[2024.08.13-19.51.52:482][693]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Samurai] ([2] browsable assets)...
+[2024.08.13-19.51.52:482][693]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Samurai]
+[2024.08.13-19.51.52:482][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Samurai" FILE="../../../../../Projects/Unreal 5/2D-Unreal-Course/QuickDraw/Content/Blueprints/BP_Samurai.uasset" SILENT=true
+[2024.08.13-19.51.52:484][693]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Samurai
+[2024.08.13-19.51.52:484][693]LogSavePackage: Moving '../../../../../Projects/Unreal 5/2D-Unreal-Course/QuickDraw/Saved/BP_Samurai62C7C0BB45A7A35A06EDC1BEC3D96AD2.tmp' to '../../../../../Projects/Unreal 5/2D-Unreal-Course/QuickDraw/Content/Blueprints/BP_Samurai.uasset'
+[2024.08.13-19.51.52:518][693]LogFileHelpers: InternalPromptForCheckoutAndSave took 123.966 ms (total: 877.213 ms)
+[2024.08.13-19.51.52:579][693]LogContentValidation: Display: Starting to validate 2 assets
+[2024.08.13-19.51.52:579][693]LogContentValidation: Enabled validators:
+[2024.08.13-19.51.52:579][693]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.08.13-19.51.52:579][693]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.08.13-19.51.52:579][693]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.08.13-19.51.52:579][693]LogContentValidation: Display: Validating asset /Game/Maps/MAP_Duel.MAP_Duel
+[2024.08.13-19.51.52:579][693]AssetCheck: /Game/Maps/MAP_Duel Validating asset
+[2024.08.13-19.51.52:579][693]LogContentValidation: Display: Validating asset /Game/Blueprints/BP_Samurai.BP_Samurai
+[2024.08.13-19.51.52:579][693]AssetCheck: /Game/Blueprints/BP_Samurai Validating asset
